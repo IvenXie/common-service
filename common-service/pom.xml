@@ -15,6 +15,10 @@
     <!--    <packaging>war</packaging> 需要部署的项目-->
     <packaging>pom</packaging>
 
+    <modules>
+        <module>eureka</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
