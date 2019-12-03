@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * 注册中心服务
+ * 注册服务
+ * 访问地址 http://localhost:8761
+ *
+ * @author xiezhendong 819712047@qq.com
  */
 @EnableEurekaServer
 @SpringBootApplication
